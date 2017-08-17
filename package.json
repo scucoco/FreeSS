@@ -1,0 +1,19 @@
+{
+  "name": "getss",
+  "version": "1.0.0",
+  "description": "获取最新免费的ss账号",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ss"
+  ],
+  "author": "koiding",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "nodemailer": "^4.0.1",
+    "superagent": "^3.5.2"
+  }
+}
