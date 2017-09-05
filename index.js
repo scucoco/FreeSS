@@ -48,7 +48,7 @@ superagent.get(url).end(function(err, res) {
 });
 
 function makeMessage(data) {
-    let html = conf.mail.template;
+    let html = '<!DOCTYPE html><html><head><meta charset="utf-8" /><title>ssaccount</title></head><body><table>';
     for (let i = 0; i < data.length; i++) {
         let item = data[i];
         if (item.ssTxt != 'error') {
