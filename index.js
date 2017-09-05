@@ -1,7 +1,7 @@
 const superagent = require('superagent');
 const cheerio = require('cheerio');
 const async = require('async');
-var nodemailer = require('nodemailer');
+const nodemailer = require('nodemailer');
 const conf = require('./conf');
 
 let url = conf.base_url;
