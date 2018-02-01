@@ -23,9 +23,9 @@ superagent.get(url).end(function(err, res) {
         let _domain = _redirects[0]; //这里才是包含ss账号的网址
         if (_domain != undefined) {
             var imgs = [];
-            imgs.push(_domain + '/images/server01.png');
-            imgs.push(_domain + '/images/server02.png');
-            imgs.push(_domain + '/images/server03.png');
+            imgs.push(_domain + '/img/qr/jpaxxoo.png');
+            imgs.push(_domain + '/img/qr/jpbxxoo.png');
+            imgs.push(_domain + '/img/qr/jpcxxoo.png');
 
             //这里是把二维码解析成字符串
             async.mapLimit(imgs, 5, function(obj, callback) {
