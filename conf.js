@@ -5,8 +5,8 @@ const conf = {
         host: "smtp.qq.com",
         port: 465,
         auth: {
-            user: "1503635",//邮箱用户名
-            pass: "18982091881"//邮箱密码
+            user: "397369",//邮箱用户名
+            pass: "lsl801201^"//邮箱密码
         },
         mailOptions: {
             from: "SSman <xxx@xxx.com>",
