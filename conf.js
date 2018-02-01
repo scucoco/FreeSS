@@ -1,16 +1,16 @@
 const conf = {
-    base_url: "http://ss.ishadowx.com/",//这玩意儿是关键
-    qrdecodParseeUrl: "http://xxxxx.xxxx.xxx", //解析二维码图片
+    base_url: "http://global.ishadowx.net/",//这玩意儿是关键
+    qrdecodParseeUrl: "https://zxing.org/w/decode?u=", //解析二维码图片
     mail: {
         host: "smtp.qq.com",
         port: 465,
         auth: {
-            user: "xxxxx",//邮箱用户名
-            pass: "xxxxx"//邮箱密码
+            user: "1503635",//邮箱用户名
+            pass: "18982091881"//邮箱密码
         },
         mailOptions: {
             from: "SSman <xxx@xxx.com>",
-            to: "xxxx@qq.com, xxx@qq.com",
+            to: "397369@qq.com, 985835531@qq.com",
             subject: "最新账号",
             html: "",
         }
